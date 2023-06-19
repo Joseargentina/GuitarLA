@@ -1,0 +1,96 @@
+
+@media (min-width: 992px) {
+    .blog__grid--pagina {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} 
+@media (min-width: 768px) {
+    .nosotros__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+} 
+
+@media (min-width: 768px) {
+    .footer__nav {
+        flex-direction: row;
+        gap: 2rem;
+    }
+} 
+
+@media (min-width: 768px) {
+    .footer__contenido {
+        display: flex;
+        justify-content: space-between;
+    }
+} 
+
+@media (min-width: 768px) {
+    .blog__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+@media (min-width: 992px) {
+    .blog__grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+} 
+
+@media (min-width: 768px) {
+    .cursos__contenido {
+        grid-column: 2 / 3;
+    }
+} 
+
+@media (min-width: 768px) {
+    .cursos__grid {
+        display: grid;
+        grid-template-columns: repeat( 2, 1fr);
+        column-gap: 2rem;
+    }
+} 
+
+@media (min-width: 768px) {
+    .productos__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+@media (min-width: 1200px) {
+    .productos__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} 
+
+@media (min-width: 768px) {
+    .modelo {
+        text-align: left;
+        width: 50%;
+    }
+} 
+
+@media (min-width: 768px) {
+    .navegacion__enlace {
+        margin-top: 0;
+    }
+} 
+
+@media (min-width: 768px) {
+    .header__barra {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+} 
+
+@media (min-width: 992px) {
+    .header__guitarra {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        animation: 1s ease-in-out 0s 1 mostrarImagen;
+        animation-timing-function: ease-in;
+    }
+} 

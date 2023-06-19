@@ -1,0 +1,30 @@
+@use 'variables';
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 2rem;
+    font-family: var(--fuente-principal);
+    line-height: 1.5;
+}
+img {
+    max-width: 100%;
+}
+
+[class*="contenedor"] {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+[ class*="__heading"] {
+    color: var(--primary);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 5rem 0;
+}
